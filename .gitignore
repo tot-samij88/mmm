@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+media
+*.py[cod]
+*.log
+*.pot
+*.pyc
+.env
+.venv
+env/
+venv/
+ENV/
+migrations/
+/.vscode
+/frontend/node_modules
+.DS_Stor
+/backend/api_private/secret.py
+/backend/static
+/backend/Logs

@@ -1,0 +1,19 @@
+[
+  // This is simple obj for register
+  // POST http://127.0.0.1:8000/auth/register
+  {
+    "login": "login",
+    "password": "password",
+    "email": "email@email.email",
+    "first_name": "first_name",
+    "last_name": "last_name",
+    "phone":"380680505305"
+  },
+
+  // This is onj for LOGIN
+  // POST http://127.0.0.1:8000/auth/login/
+  {
+    "login": "login",
+    "password": "password"
+  }
+]

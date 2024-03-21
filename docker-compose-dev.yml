@@ -1,0 +1,137 @@
+version: "3.7"
+
+services:
+  ex-backend:
+    build: 
+      context: ./backend/
+    container_name: ex-backend
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"
+    # sh -c "daphne -b 0.0.0.0 -p 8000 settings.asgi:application"
+    # command: gunicorn settings.wsgi:application --bind 0.0.0.0:8000 
+    volumes:
+      - ./backend:/backend
+      - ./static:/var/www/static
+    environment:
+      - SQL_ENGINE=django.db.backends.postgresql
+      - SQL_DATABASE=ex_money_docker
+      - SQL_USER=postgres
+      - SQL_PASSWORD=32!Vlad!82
+      - SQL_HOST=ex-database
+      - SQL_PORT=5432
+      - REDIS_URI=redis
+      - REDIS_PORT=6379
+    links:
+      - redis
+    depends_on:
+      - ex-database
+      - redis
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    networks:
+      loc:
+  
+  ex-database:
+    image: postgres:13.0-alpine
+    container_name: ex-database
+    restart: unless-stopped
+    # Перед этим выполнил создание тома
+    # docker volume create postgres_database
+    volumes:
+      - type: bind
+        source: postgres_database #windows
+        # source: ./postgres_database #linux
+        target: /var/lib/postgresql/data:Z
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 32!Vlad!82
+      POSTGRES_DB: ex_money_docker
+    networks:
+      loc:
+
+  ex-front:
+    build: 
+      context: ./frontend/
+    volumes:
+      - ./frontend:/frontend/
+      - type: bind
+        source: ./frontend/conf.d
+        target: /etc/nginx/conf.d
+    ports:
+      - "8080:8080"
+    command: >
+      sh -c "npm run serve"
+    container_name: site_front
+    restart: unless-stopped
+    depends_on:
+      - ex-backend
+    # entrypoint: sh -c "nginx -g \"daemon off;\""
+    networks:
+      loc:
+  
+  redis:
+    restart: unless-stopped
+    image: redis:7.0.5-alpine
+    hostname: redis
+    networks:
+      loc:
+  
+  worker:
+    restart: unless-stopped
+    build:
+      context: ./backend/
+    hostname: worker
+    command: celery --app=settings worker --loglevel=info
+    volumes:
+      - ./backend:/backend/
+    links:
+      - redis
+    depends_on:
+      - redis
+      - ex-database
+    environment:
+      - SQL_ENGINE=django.db.backends.postgresql
+      - SQL_DATABASE=ex_money_docker
+      - SQL_USER=postgres
+      - SQL_PASSWORD=32!Vlad!82
+      - SQL_HOST=ex-database
+      - SQL_PORT=5432
+      - REDIS_URI=redis
+      - REDIS_PORT=6379
+    networks:
+      loc:
+
+
+  flower:
+    restart: unless-stopped
+    build:
+      context: ./backend/
+    hostname: flower
+    command: celery --app=settings flower
+    volumes:
+      - ./backend:/backend/
+    environment:
+      - SQL_ENGINE=django.db.backends.postgresql
+      - SQL_DATABASE=ex_money_docker
+      - SQL_USER=postgres
+      - SQL_PASSWORD=32!Vlad!82
+      - SQL_HOST=ex-database
+      - SQL_PORT=5432
+      - REDIS_URI=redis
+      - REDIS_PORT=6379
+    links:
+      - redis
+    depends_on:
+      - redis
+    ports:
+      - "5555:5555"
+    networks:
+      loc:
+networks:
+  loc:
+# networks:
+#   global_net:
+#     external: true
+#     name: global_net
+#   site_net:

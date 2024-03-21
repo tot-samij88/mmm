@@ -1,0 +1,5279 @@
+{
+	"success": true,
+	"data": {
+		"1INCH": {
+			"id": 8104,
+			"shortName": "1INCH",
+			"info": {
+				"name": "1inch",
+				"unified_cryptoasset_id": 8104,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "25",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "15",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "1inch",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.622289",
+						"0.622461",
+						"0.623836",
+						"0.622118",
+						"5760.4",
+						"3588.89841207"
+					],
+					[
+						1657175400,
+						"0.623664",
+						"0.62126",
+						"0.623836",
+						"0.621089",
+						"7820.98",
+						"4871.05394991"
+					],
+					[
+						1657176300,
+						"0.620918",
+						"0.620062",
+						"0.620918",
+						"0.619037",
+						"13911.04",
+						"8627.10755168"
+					],
+					[
+						1657177200,
+						"0.620404",
+						"0.621432",
+						"0.622976",
+						"0.619208",
+						"12355.95",
+						"7686.48921513"
+					],
+					[
+						1657178100,
+						"0.62126",
+						"0.620404",
+						"0.621775",
+						"0.619037",
+						"6202.91",
+						"3848.23986708"
+					]
+				]
+			},
+			"traidingWith": {
+				"1INCH_BTC": {
+					"name": "BTC",
+                    
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.00003065",
+						"bid": "0.00003114",
+						"ask": "0.0000313",
+						"low": "0.00002954",
+						"high": "0.00003144",
+						"last": "0.00003123",
+						"volume": "93694",
+						"deal": "2.85502865",
+						"change": "1.89"
+					}
+				},
+				"1INCH_UAH": {
+					"name": "UAH",
+					"info": {
+						"name": "Hryvnia",
+						"unified_cryptoasset_id": 0,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "50",
+						"max_withdraw": "100000",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "50",
+						"max_deposit": "100000",
+						"providers": {
+							"deposits": ["VISAMASTER", "ADVCASH", "GEOPAY"],
+							"withdraws": ["VISAMASTER", "GEOPAY"]
+						},
+						"limits": {
+							"deposit": {
+								"ADVCASH": { "max": "50000", "min": "50" },
+								"GEOPAY": { "max": "100000", "min": "50" },
+								"VISAMASTER": { "max": "29500", "min": "50" }
+							},
+							"withdraw": {
+								"ADVCASH": { "max": "50000", "min": "50" },
+								"GEOPAY": { "max": "100000", "min": "50" },
+								"VISAMASTER": { "max": "100000", "min": "50" }
+							}
+						},
+						"currency_precision": 2,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "21.654968",
+						"bid": "23.962884",
+						"ask": "23.993238",
+						"low": "21.627573",
+						"high": "24.608449",
+						"last": "23.932569",
+						"volume": "27539.4",
+						"deal": "635297.89724367",
+						"change": "10.52"
+					}
+				},
+				"1INCH_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.623664",
+						"bid": "0.680635",
+						"ask": "0.680823",
+						"low": "0.619037",
+						"high": "0.698894",
+						"last": "0.679697",
+						"volume": "2238280.09",
+						"deal": "1469605.81162648",
+						"change": "8.98"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "25", "max": "0" }
+			}
+		},
+		"AAVE": {
+			"id": 7278,
+			"shortName": "AAVE",
+			"info": {
+				"name": "Aave",
+				"unified_cryptoasset_id": 7278,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "0.4",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "0.37",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Aave",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"62.9919",
+						"62.8144",
+						"63.0203",
+						"62.7032",
+						"398.8525",
+						"25082.4180013"
+					],
+					[
+						1657175400,
+						"62.8389",
+						"62.5622",
+						"62.9711",
+						"62.504",
+						"397.0143",
+						"24901.66287171"
+					],
+					[
+						1657176300,
+						"62.5509",
+						"62.2961",
+						"62.596",
+						"62.1019",
+						"691.1721",
+						"43023.41910255"
+					],
+					[
+						1657177200,
+						"62.2961",
+						"62.3092",
+						"62.5754",
+						"62.2213",
+						"350.2379",
+						"21859.87822383"
+					],
+					[
+						1657178100,
+						"62.3672",
+						"62.5153",
+						"62.6995",
+						"62.3035",
+						"388.2759",
+						"24272.91402992"
+					]
+				]
+			},
+			"traidingWith": {
+				"AAVE_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.003091",
+						"bid": "0.003278",
+						"ask": "0.003282",
+						"low": "0.003059",
+						"high": "0.003456",
+						"last": "0.00328",
+						"volume": "11501.4815",
+						"deal": "37.743688411",
+						"change": "6.11"
+					}
+				},
+				"AAVE_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "62.8088",
+						"bid": "71.3973",
+						"ask": "71.4059",
+						"low": "62.1019",
+						"high": "75.859",
+						"last": "71.4231",
+						"volume": "94677.6257",
+						"deal": "6602996.02493322",
+						"change": "13.72"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "0.4", "max": "0" }
+			}
+		},
+		"ADA": {
+			"id": 2010,
+			"shortName": "ADA",
+			"info": {
+				"name": "Cardano",
+				"unified_cryptoasset_id": 2010,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "16",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "8",
+				"max_deposit": "0",
+				"currency_precision": 6,
+				"is_memo": false
+			},
+			"name": "Cardano",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.463949",
+						"0.464438",
+						"0.464577",
+						"0.463949",
+						"84914.7",
+						"39424.28587059"
+					],
+					[
+						1657175400,
+						"0.464577",
+						"0.464438",
+						"0.465276",
+						"0.464228",
+						"79211.18",
+						"36808.94363854"
+					],
+					[
+						1657176300,
+						"0.464507",
+						"0.464159",
+						"0.464926",
+						"0.463392",
+						"91114.88",
+						"42292.17122944"
+					],
+					[
+						1657177200,
+						"0.464228",
+						"0.464228",
+						"0.464856",
+						"0.46388",
+						"67294.14",
+						"31259.13367927"
+					],
+					[
+						1657178100,
+						"0.464228",
+						"0.465206",
+						"0.465625",
+						"0.46388",
+						"64625.98",
+						"30017.7171686"
+					]
+				]
+			},
+			"traidingWith": {
+				"ADA_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.00002283",
+						"bid": "0.00002183",
+						"ask": "0.00002185",
+						"low": "0.00002178",
+						"high": "0.00002287",
+						"last": "0.00002184",
+						"volume": "3074647",
+						"deal": "68.50213207",
+						"change": "-4.34"
+					}
+				},
+				"ADA_UAH": {
+					"name": "UAH",
+					"info": {
+						"name": "Hryvnia",
+						"unified_cryptoasset_id": 0,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "50",
+						"max_withdraw": "100000",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "50",
+						"max_deposit": "100000",
+						"providers": {
+							"deposits": ["VISAMASTER", "ADVCASH", "GEOPAY"],
+							"withdraws": ["VISAMASTER", "GEOPAY"]
+						},
+						"limits": {
+							"deposit": {
+								"ADVCASH": { "max": "50000", "min": "50" },
+								"GEOPAY": { "max": "100000", "min": "50" },
+								"VISAMASTER": { "max": "29500", "min": "50" }
+							},
+							"withdraw": {
+								"ADVCASH": { "max": "50000", "min": "50" },
+								"GEOPAY": { "max": "100000", "min": "50" },
+								"VISAMASTER": { "max": "100000", "min": "50" }
+							}
+						},
+						"currency_precision": 2,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "16.112575",
+						"bid": "16.741798",
+						"ask": "16.754454",
+						"low": "16.112575",
+						"high": "17.412772",
+						"last": "16.754454",
+						"volume": "123125.85",
+						"deal": "2063010.77755468",
+						"change": "3.98"
+					}
+				},
+				"ADA_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.464228",
+						"bid": "0.476022",
+						"ask": "0.476094",
+						"low": "0.462002",
+						"high": "0.493201",
+						"last": "0.476094",
+						"volume": "14268159.12",
+						"deal": "6797236.53296826",
+						"change": "2.56"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "16", "max": "0" }
+			}
+		},
+		"ADK": {
+			"id": 1706,
+			"shortName": "ADK",
+			"info": {
+				"name": "Aidos Kuneen",
+				"unified_cryptoasset_id": 1706,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "85",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "45",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Aidos Kuneen",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "85", "max": "0" }
+			}
+		},
+		"ADX": {
+			"id": 0,
+			"shortName": "ADX",
+			"info": {
+				"name": "Ambire AdEx",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "100",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "70",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Ambire AdEx",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "100", "max": "0" }
+			}
+		},
+		"AGLD": {
+			"id": 0,
+			"shortName": "AGLD",
+			"info": {
+				"name": "Adventure Gold",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "30",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "20",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Adventure Gold",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.4246",
+						"0.4232",
+						"0.4246",
+						"0.4232",
+						"5316.6836",
+						"2255.64930998"
+					],
+					[
+						1657175400,
+						"0.4232",
+						"0.4232",
+						"0.4246",
+						"0.4232",
+						"5458.7796",
+						"2312.53004558"
+					],
+					[
+						1657176300,
+						"0.4232",
+						"0.4232",
+						"0.4239",
+						"0.4224",
+						"8353.6683",
+						"3536.97097974"
+					],
+					[
+						1657177200,
+						"0.4232",
+						"0.4224",
+						"0.4232",
+						"0.4203",
+						"5271.3006",
+						"2222.79317096"
+					],
+					[
+						1657178100,
+						"0.4217",
+						"0.4275",
+						"0.4283",
+						"0.4217",
+						"8218.3149",
+						"3505.57725267"
+					]
+				]
+			},
+			"traidingWith": {
+				"AGLD_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.4232",
+						"bid": "0.4196",
+						"ask": "0.4203",
+						"low": "0.411",
+						"high": "0.4547",
+						"last": "0.4196",
+						"volume": "986515.49",
+						"deal": "427717.42037949",
+						"change": "-0.85"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "30", "max": "0" }
+			}
+		},
+		"AGRS": {
+			"id": 1037,
+			"shortName": "AGRS",
+			"info": {
+				"name": "Agoras",
+				"unified_cryptoasset_id": 1037,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "40",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "30",
+				"max_deposit": "0",
+				"networks": {
+					"deposits": ["OMNI", "ERC20"],
+					"withdraws": ["ERC20"],
+					"default": ""
+				},
+				"limits": {
+					"deposit": {
+						"ERC20": { "min": "30" },
+						"OMNI": { "min": "40" }
+					},
+					"withdraw": {
+						"ERC20": { "min": "40" },
+						"OMNI": { "min": "60" }
+					}
+				},
+				"currency_precision": 8,
+				"is_memo": false
+			},
+			"name": "Agoras",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "40", "max": "0" }
+			}
+		},
+		"AKITA": {
+			"id": 8378,
+			"shortName": "AKITA",
+			"info": {
+				"name": "Akita Inu",
+				"unified_cryptoasset_id": 8378,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "22000000",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "17000000",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Akita Inu",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "22000000", "max": "0" }
+			}
+		},
+		"AKRO": {
+			"id": 0,
+			"shortName": "AKRO",
+			"info": {
+				"name": "Akropolis",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "5500",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "4500",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Akropolis",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.00428",
+						"0.00429",
+						"0.00429",
+						"0.00427",
+						"46037.92",
+						"196.9023688"
+					],
+					[
+						1657175400,
+						"0.00428",
+						"0.00428",
+						"0.0043",
+						"0.00428",
+						"29328.83",
+						"125.9350325"
+					],
+					[
+						1657176300,
+						"0.00428",
+						"0.00429",
+						"0.00429",
+						"0.00428",
+						"26089.08",
+						"111.7037118"
+					],
+					[
+						1657177200,
+						"0.00429",
+						"0.0043",
+						"0.0043",
+						"0.00428",
+						"44033.5",
+						"188.7997977"
+					],
+					[
+						1657178100,
+						"0.00428",
+						"0.0043",
+						"0.00431",
+						"0.00428",
+						"77788.06",
+						"334.2360024"
+					]
+				]
+			},
+			"traidingWith": {
+				"AKRO_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.00428",
+						"bid": "0.00453",
+						"ask": "0.00456",
+						"low": "0.00428",
+						"high": "0.00489",
+						"last": "0.00456",
+						"volume": "34748854.97",
+						"deal": "159959.3332305",
+						"change": "6.54"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "5500", "max": "0" }
+			}
+		},
+		"ALICE": {
+			"id": 0,
+			"shortName": "ALICE",
+			"info": {
+				"name": "My Neighbor Alice",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "7",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "4",
+				"max_deposit": "0",
+				"currency_precision": 6,
+				"is_memo": false
+			},
+			"name": "My Neighbor Alice",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"2.3118",
+						"2.3349",
+						"2.3353",
+						"2.3118",
+						"4486.2466",
+						"10423.67907839"
+					],
+					[
+						1657175400,
+						"2.334",
+						"2.3336",
+						"2.3388",
+						"2.3263",
+						"4904.5486",
+						"11433.84583198"
+					],
+					[
+						1657176300,
+						"2.3336",
+						"2.3362",
+						"2.3379",
+						"2.325",
+						"3651.9939",
+						"8519.88789693"
+					],
+					[
+						1657177200,
+						"2.3357",
+						"2.3543",
+						"2.3543",
+						"2.331",
+						"3804.1108",
+						"8911.908101"
+					],
+					[
+						1657178100,
+						"2.3534",
+						"2.373",
+						"2.3848",
+						"2.3534",
+						"20828.2768",
+						"49450.5249889"
+					]
+				]
+			},
+			"traidingWith": {
+				"ALICE_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "2.3302",
+						"bid": "2.3725",
+						"ask": "2.3747",
+						"low": "2.325",
+						"high": "2.491",
+						"last": "2.3743",
+						"volume": "628623.3256",
+						"deal": "1528451.62973329",
+						"change": "1.89"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "7", "max": "0" }
+			}
+		},
+		"ALN": {
+			"id": 5544,
+			"shortName": "ALN",
+			"info": {
+				"name": "Alone Coin",
+				"unified_cryptoasset_id": 5544,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "180",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "100",
+				"max_deposit": "0",
+				"currency_precision": 6,
+				"is_memo": false
+			},
+			"name": "Alone Coin",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.055341",
+						"0.055341",
+						"0.055341",
+						"0.05456",
+						"2291.08",
+						"126.14632178"
+					],
+					[
+						1657175400,
+						"0.055341",
+						"0.055341",
+						"0.055341",
+						"0.055341",
+						"0",
+						"0"
+					],
+					[
+						1657176300,
+						"0.055341",
+						"0.055341",
+						"0.055341",
+						"0.055341",
+						"0",
+						"0"
+					],
+					[
+						1657177200,
+						"0.055341",
+						"0.055341",
+						"0.055341",
+						"0.055341",
+						"0",
+						"0"
+					],
+					[
+						1657178100,
+						"0.055341",
+						"0.055341",
+						"0.055341",
+						"0.055341",
+						"0",
+						"0"
+					]
+				]
+			},
+			"traidingWith": {
+				"ALN_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.055341",
+						"bid": "0.054478",
+						"ask": "0.055341",
+						"low": "0.054478",
+						"high": "0.055341",
+						"last": "0.055341",
+						"volume": "3643475.71",
+						"deal": "201618.83181175",
+						"change": "0.00"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "180", "max": "0" }
+			}
+		},
+		"ALPACA": {
+			"id": 8707,
+			"shortName": "ALPACA",
+			"info": {
+				"name": "Alpaca Finance",
+				"unified_cryptoasset_id": 8707,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "30",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "15",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Alpaca Finance",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.2334",
+						"0.2344",
+						"0.2344",
+						"0.2334",
+						"953.6297",
+						"223.2794299"
+					],
+					[
+						1657175400,
+						"0.2341",
+						"0.2348",
+						"0.2348",
+						"0.2341",
+						"1604.1675",
+						"376.15177414"
+					],
+					[
+						1657176300,
+						"0.2348",
+						"0.2351",
+						"0.2366",
+						"0.2337",
+						"12983.9099",
+						"3053.29468294"
+					],
+					[
+						1657177200,
+						"0.2351",
+						"0.2351",
+						"0.2359",
+						"0.2344",
+						"3832.0895",
+						"900.75050755"
+					],
+					[
+						1657178100,
+						"0.2355",
+						"0.2369",
+						"0.2369",
+						"0.2351",
+						"4732.5627",
+						"1117.12609642"
+					]
+				]
+			},
+			"traidingWith": {
+				"ALPACA_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.2341",
+						"bid": "0.2344",
+						"ask": "0.2348",
+						"low": "0.232",
+						"high": "0.2494",
+						"last": "0.2348",
+						"volume": "308482.8817",
+						"deal": "73199.7612345",
+						"change": "0.30"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "30", "max": "0" }
+			}
+		},
+		"AMB": {
+			"id": 4601,
+			"shortName": "AMB",
+			"info": {
+				"name": "Amber",
+				"unified_cryptoasset_id": 4601,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "1500",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "750",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Amber",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": {
+				"AMB_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.00000034",
+						"bid": "0.0000001501",
+						"ask": "0.0000003999",
+						"low": "0.00000032",
+						"high": "0.00000034",
+						"last": "0.00000033",
+						"volume": "89160",
+						"deal": "0.02907241",
+						"change": "-2.94"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "1500", "max": "0" }
+			}
+		},
+		"AMLT": {
+			"id": 2607,
+			"shortName": "AMLT",
+			"info": {
+				"name": "AMLT",
+				"unified_cryptoasset_id": 2607,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "600",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "3200",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "AMLT",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "600", "max": "0" }
+			}
+		},
+		"AMP": {
+			"id": 0,
+			"shortName": "AMP",
+			"info": {
+				"name": "Amp",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "1700",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "1100",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Amp",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "1700", "max": "0" }
+			}
+		},
+		"ANKR": {
+			"id": 3783,
+			"shortName": "ANKR",
+			"info": {
+				"name": "Ankr",
+				"unified_cryptoasset_id": 3783,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "260",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "130",
+				"max_deposit": "0",
+				"networks": {
+					"deposits": ["ERC20", "BEP20"],
+					"withdraws": ["ERC20", "BEP20"],
+					"default": ""
+				},
+				"limits": {
+					"deposit": {
+						"BEP20": { "min": "130" },
+						"ERC20": { "min": "400" }
+					},
+					"withdraw": {
+						"BEP20": { "min": "260" },
+						"ERC20": { "min": "530" }
+					}
+				},
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Ankr",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.028141",
+						"0.028198",
+						"0.028198",
+						"0.028141",
+						"29327.96",
+						"826.86083129"
+					],
+					[
+						1657175400,
+						"0.02817",
+						"0.028085",
+						"0.028212",
+						"0.028085",
+						"189449.39",
+						"5334.10507055"
+					],
+					[
+						1657176300,
+						"0.028085",
+						"0.028042",
+						"0.028085",
+						"0.027986",
+						"23030.64",
+						"645.96933473"
+					],
+					[
+						1657177200,
+						"0.028042",
+						"0.028085",
+						"0.028113",
+						"0.028042",
+						"41979.08",
+						"1178.60591818"
+					],
+					[
+						1657178100,
+						"0.02807",
+						"0.028099",
+						"0.028099",
+						"0.028",
+						"117693.79",
+						"3301.81003095"
+					]
+				]
+			},
+			"traidingWith": {
+				"ANKR_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.00000138",
+						"bid": "0.00000133",
+						"ask": "0.00000136",
+						"low": "0.00000134",
+						"high": "0.00000141",
+						"last": "0.00000134",
+						"volume": "699598",
+						"deal": "0.96576708",
+						"change": "-2.90"
+					}
+				},
+				"ANKR_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.028198",
+						"bid": "0.02921",
+						"ask": "0.029255",
+						"low": "0.027986",
+						"high": "0.030183",
+						"last": "0.029284",
+						"volume": "8167506.95",
+						"deal": "239550.48407488",
+						"change": "3.85"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "260", "max": "0" }
+			}
+		},
+		"ANT": {
+			"id": 1680,
+			"shortName": "ANT",
+			"info": {
+				"name": "Aragon",
+				"unified_cryptoasset_id": 1680,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "10",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "8",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Aragon",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"1.6918",
+						"1.6995",
+						"1.6995",
+						"1.6918",
+						"1827.34",
+						"3098.596086"
+					],
+					[
+						1657175400,
+						"1.7012",
+						"1.695",
+						"1.7012",
+						"1.695",
+						"1003.9",
+						"1704.107237"
+					],
+					[
+						1657176300,
+						"1.6933",
+						"1.6921",
+						"1.6933",
+						"1.6854",
+						"2744.34",
+						"4639.333247"
+					],
+					[
+						1657177200,
+						"1.6927",
+						"1.6944",
+						"1.6978",
+						"1.6927",
+						"1058.46",
+						"1794.949163"
+					],
+					[
+						1657178100,
+						"1.691",
+						"1.6973",
+						"1.6978",
+						"1.6904",
+						"1965.09",
+						"3329.219195"
+					]
+				]
+			},
+			"traidingWith": {
+				"ANT_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.00008347",
+						"bid": "0.00007848",
+						"ask": "0.00007874",
+						"low": "0.00007788",
+						"high": "0.00008403",
+						"last": "0.00007871",
+						"volume": "31154.53",
+						"deal": "2.5130781808",
+						"change": "-5.70"
+					}
+				},
+				"ANT_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "1.7012",
+						"bid": "1.7121",
+						"ask": "1.7138",
+						"low": "1.6814",
+						"high": "1.7498",
+						"last": "1.7138",
+						"volume": "405696.91",
+						"deal": "697802.737124",
+						"change": "0.74"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "10", "max": "0" }
+			}
+		},
+		"APE": {
+			"id": 9497,
+			"shortName": "APE",
+			"info": {
+				"name": "ApeCoin",
+				"unified_cryptoasset_id": 9497,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "3.5",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "2.5",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "ApeCoin",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"4.9567",
+						"4.9654",
+						"4.971",
+						"4.9524",
+						"9153.5502",
+						"45425.10157721"
+					],
+					[
+						1657175400,
+						"4.9667",
+						"4.9462",
+						"4.9741",
+						"4.9462",
+						"7741.0567",
+						"38384.09389304"
+					],
+					[
+						1657176300,
+						"4.9468",
+						"4.9258",
+						"4.9474",
+						"4.8896",
+						"21412.0827",
+						"105211.49627884"
+					],
+					[
+						1657177200,
+						"4.9264",
+						"4.9351",
+						"4.9481",
+						"4.9203",
+						"12684.9191",
+						"62608.07704953"
+					],
+					[
+						1657178100,
+						"4.9351",
+						"4.9462",
+						"4.9487",
+						"4.9129",
+						"12461.5734",
+						"61467.02319106"
+					]
+				]
+			},
+			"traidingWith": {
+				"APE_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "4.958",
+						"bid": "5.0875",
+						"ask": "5.0887",
+						"low": "4.8896",
+						"high": "5.2973",
+						"last": "5.0881",
+						"volume": "1688398.0586",
+						"deal": "8632200.56718046",
+						"change": "2.62"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "3.5", "max": "0" }
+			}
+		},
+		"API3": {
+			"id": 0,
+			"shortName": "API3",
+			"info": {
+				"name": "API3",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "7",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "4.5",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "API3",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "7", "max": "0" }
+			}
+		},
+		"AQGT": {
+			"id": 0,
+			"shortName": "AQGT",
+			"info": {
+				"name": "Aquagoat",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "1275000000",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "900000000",
+				"max_deposit": "0",
+				"currency_precision": 9,
+				"is_memo": false
+			},
+			"name": "Aquagoat",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": {
+				"AQGT_DECL": {
+					"name": "DECL",
+					"info": {
+						"name": "Decimal Token",
+						"unified_cryptoasset_id": 0,
+						"can_withdraw": false,
+						"can_deposit": false,
+						"min_withdraw": "0",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0",
+						"max_deposit": "0",
+						"currency_precision": 18,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0",
+						"bid": "0.00000515",
+						"ask": "0.00001399",
+						"low": "0",
+						"high": "0",
+						"last": "0.00001199",
+						"volume": "0",
+						"deal": "0",
+						"change": "0.00"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "1275000000", "max": "0" }
+			}
+		},
+		"AQN": {
+			"id": 0,
+			"shortName": "AQN",
+			"info": {
+				"name": "AQUANITE",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "1500",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "5500",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "AQUANITE",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "1500", "max": "0" }
+			}
+		},
+		"ARPA": {
+			"id": 0,
+			"shortName": "ARPA",
+			"info": {
+				"name": "ARPA Chain",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "370",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "250",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "ARPA Chain",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.037782",
+						"0.038128",
+						"0.038167",
+						"0.037743",
+						"339451.73",
+						"12887.16767061"
+					],
+					[
+						1657175400,
+						"0.038167",
+						"0.039308",
+						"0.039308",
+						"0.03809",
+						"1820082.01",
+						"70649.2963159"
+					],
+					[
+						1657176300,
+						"0.039308",
+						"0.038832",
+						"0.039588",
+						"0.038832",
+						"1351424.6",
+						"53036.51313649"
+					],
+					[
+						1657177200,
+						"0.038832",
+						"0.03899",
+						"0.03899",
+						"0.038517",
+						"678519.87",
+						"26305.13486203"
+					],
+					[
+						1657178100,
+						"0.03899",
+						"0.039029",
+						"0.039308",
+						"0.03891",
+						"613806.79",
+						"23977.69284833"
+					]
+				]
+			},
+			"traidingWith": {
+				"ARPA_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.037974",
+						"bid": "0.039308",
+						"ask": "0.039387",
+						"low": "0.037897",
+						"high": "0.041989",
+						"last": "0.039467",
+						"volume": "30490608.53",
+						"deal": "1216682.12576593",
+						"change": "3.93"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "370", "max": "0" }
+			}
+		},
+		"ARV": {
+			"id": 0,
+			"shortName": "ARV",
+			"info": {
+				"name": "Ariva",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "53000",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "26000",
+				"max_deposit": "0",
+				"currency_precision": 8,
+				"is_memo": false
+			},
+			"name": "Ariva",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "53000", "max": "0" }
+			}
+		},
+		"ASH": {
+			"id": 0,
+			"shortName": "ASH",
+			"info": {
+				"name": "Aeneas",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "1000",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "500",
+				"max_deposit": "0",
+				"currency_precision": 8,
+				"is_memo": false
+			},
+			"name": "Aeneas",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0",
+						"0"
+					],
+					[
+						1657175400,
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0",
+						"0"
+					],
+					[
+						1657176300,
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0",
+						"0"
+					],
+					[
+						1657177200,
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0",
+						"0"
+					],
+					[
+						1657178100,
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0.014125",
+						"0",
+						"0"
+					]
+				]
+			},
+			"traidingWith": {
+				"ASH_UAH": {
+					"name": "UAH",
+					"info": {
+						"name": "Hryvnia",
+						"unified_cryptoasset_id": 0,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "50",
+						"max_withdraw": "100000",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "50",
+						"max_deposit": "100000",
+						"providers": {
+							"deposits": ["VISAMASTER", "ADVCASH", "GEOPAY"],
+							"withdraws": ["VISAMASTER", "GEOPAY"]
+						},
+						"limits": {
+							"deposit": {
+								"ADVCASH": { "max": "50000", "min": "50" },
+								"GEOPAY": { "max": "100000", "min": "50" },
+								"VISAMASTER": { "max": "29500", "min": "50" }
+							},
+							"withdraw": {
+								"ADVCASH": { "max": "50000", "min": "50" },
+								"GEOPAY": { "max": "100000", "min": "50" },
+								"VISAMASTER": { "max": "100000", "min": "50" }
+							}
+						},
+						"currency_precision": 2,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.507",
+						"bid": "0.400017",
+						"ask": "0.491",
+						"low": "0.40001",
+						"high": "0.507",
+						"last": "0.400017",
+						"volume": "5561.59",
+						"deal": "2331.71004703",
+						"change": "-21.10"
+					}
+				},
+				"ASH_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.012204",
+						"bid": "0.0121",
+						"ask": "0.014378",
+						"low": "0.0121",
+						"high": "0.014487",
+						"last": "0.0121",
+						"volume": "8736.75",
+						"deal": "106.83731558",
+						"change": "-0.85"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "1000", "max": "0" }
+			}
+		},
+		"AUDIO": {
+			"id": 0,
+			"shortName": "AUDIO",
+			"info": {
+				"name": "Audius",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "45",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "30",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Audius",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "45", "max": "0" }
+			}
+		},
+		"AVAX": {
+			"id": 5805,
+			"shortName": "AVAX",
+			"info": {
+				"name": "Avalanche",
+				"unified_cryptoasset_id": 5805,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "0.6",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "0.3",
+				"max_deposit": "0",
+				"networks": {
+					"deposits": ["CCHAIN", "XCHAIN"],
+					"withdraws": ["CCHAIN", "XCHAIN"],
+					"default": ""
+				},
+				"limits": {
+					"deposit": {
+						"CCHAIN": { "min": "0.3" },
+						"XCHAIN": { "min": "0.3" }
+					},
+					"withdraw": {
+						"CCHAIN": { "min": "0.6" },
+						"XCHAIN": { "min": "0.6" }
+					}
+				},
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Avalanche",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"18.9621",
+						"19.0993",
+						"19.1089",
+						"18.9602",
+						"12516.3719",
+						"238456.76388193"
+					],
+					[
+						1657175400,
+						"19.1031",
+						"19.0325",
+						"19.1395",
+						"19.0211",
+						"8485.7003",
+						"161870.8871916"
+					],
+					[
+						1657176300,
+						"19.0325",
+						"19.0287",
+						"19.0458",
+						"18.9204",
+						"10467.0704",
+						"198792.69488698"
+					],
+					[
+						1657177200,
+						"19.0287",
+						"19.0306",
+						"19.105",
+						"19.0211",
+						"9413.5267",
+						"179468.64449519"
+					],
+					[
+						1657178100,
+						"19.0382",
+						"18.9716",
+						"19.0573",
+						"18.8524",
+						"16217.3607",
+						"307143.40972711"
+					]
+				]
+			},
+			"traidingWith": {
+				"AVAX_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.0009394",
+						"bid": "0.00091828",
+						"ask": "0.00091898",
+						"low": "0.00091898",
+						"high": "0.00097744",
+						"last": "0.00091898",
+						"volume": "71669.35",
+						"deal": "67.6829983214",
+						"change": "-2.17"
+					}
+				},
+				"AVAX_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "19.0802",
+						"bid": "19.9813",
+						"ask": "20.0033",
+						"low": "18.8524",
+						"high": "21.1291",
+						"last": "19.9833",
+						"volume": "1679640.3325",
+						"deal": "33637920.02924863",
+						"change": "4.73"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "0.6", "max": "0" }
+			}
+		},
+		"AWX": {
+			"id": 7301,
+			"shortName": "AWX",
+			"info": {
+				"name": "AurusDeFi",
+				"unified_cryptoasset_id": 7301,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "10",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "23",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "AurusDeFi",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "10", "max": "0" }
+			}
+		},
+		"AXEL": {
+			"id": 6216,
+			"shortName": "AXEL",
+			"info": {
+				"name": "AXEL",
+				"unified_cryptoasset_id": 6216,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "70",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "35",
+				"max_deposit": "0",
+				"currency_precision": 8,
+				"is_memo": false
+			},
+			"name": "AXEL",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": {
+				"AXEL_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.00000776",
+						"bid": "0.00000774",
+						"ask": "0.00000777",
+						"low": "0.00000776",
+						"high": "0.00000776",
+						"last": "0.00000776",
+						"volume": "1766",
+						"deal": "0.01370416",
+						"change": "0.00"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "70", "max": "0" }
+			}
+		},
+		"AXS": {
+			"id": 6783,
+			"shortName": "AXS",
+			"info": {
+				"name": "Axie Infinity",
+				"unified_cryptoasset_id": 6783,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "1",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "0.7",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Axie Infinity",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"14.6412",
+						"14.6412",
+						"14.6806",
+						"14.6361",
+						"373.1359",
+						"5464.45201073"
+					],
+					[
+						1657175400,
+						"14.6549",
+						"14.6309",
+						"14.6566",
+						"14.6104",
+						"997.8374",
+						"14599.54982477"
+					],
+					[
+						1657176300,
+						"14.6344",
+						"14.619",
+						"14.6344",
+						"14.5627",
+						"339.225",
+						"4952.26691026"
+					],
+					[
+						1657177200,
+						"14.6241",
+						"14.6566",
+						"14.6686",
+						"14.6241",
+						"596.9851",
+						"8747.75181998"
+					],
+					[
+						1657178100,
+						"14.6241",
+						"14.6875",
+						"14.6875",
+						"14.6207",
+						"620.7942",
+						"9107.36554468"
+					]
+				]
+			},
+			"traidingWith": {
+				"AXS_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.00071924",
+						"bid": "0.000691",
+						"ask": "0.000694",
+						"low": "0.00069267",
+						"high": "0.0007374",
+						"last": "0.00069348",
+						"volume": "16030.51",
+						"deal": "11.5080782084",
+						"change": "-3.58"
+					}
+				},
+				"AXS_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "14.6549",
+						"bid": "15.0823",
+						"ask": "15.0929",
+						"low": "14.5627",
+						"high": "15.7617",
+						"last": "15.0841",
+						"volume": "121446.5362",
+						"deal": "1855259.37603761",
+						"change": "2.93"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "1", "max": "0" }
+			}
+		},
+		"AYA": {
+			"id": 3973,
+			"shortName": "AYA",
+			"info": {
+				"name": "Aryacoin",
+				"unified_cryptoasset_id": 3973,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "0.000000000000000001",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "540",
+				"max_deposit": "0",
+				"currency_precision": 8,
+				"is_memo": false
+			},
+			"name": "Aryacoin",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "0.000000000000000001", "max": "0" }
+			}
+		},
+		"AZU": {
+			"id": 0,
+			"shortName": "AZU",
+			"info": {
+				"name": "AZUS",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "18",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "9",
+				"max_deposit": "0",
+				"currency_precision": 8,
+				"is_memo": false
+			},
+			"name": "AZUS",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "18", "max": "0" }
+			}
+		},
+		"BADGER": {
+			"id": 0,
+			"shortName": "BADGER",
+			"info": {
+				"name": "Badger DAO",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "6.5",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "5",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Badger DAO",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"3.1729",
+						"3.1729",
+						"3.1729",
+						"3.1729",
+						"0",
+						"0"
+					],
+					[
+						1657175400,
+						"3.1945",
+						"3.1945",
+						"3.2032",
+						"3.1772",
+						"1211.6162",
+						"3870.24062419"
+					],
+					[
+						1657176300,
+						"3.1686",
+						"3.1772",
+						"3.1989",
+						"3.1599",
+						"590.2668",
+						"1876.09541827"
+					],
+					[
+						1657177200,
+						"3.1599",
+						"3.1729",
+						"3.1772",
+						"3.1557",
+						"83.9918",
+						"265.70107232"
+					],
+					[
+						1657178100,
+						"3.1599",
+						"3.2076",
+						"3.2163",
+						"3.1514",
+						"1092.533",
+						"3484.7341199"
+					]
+				]
+			},
+			"traidingWith": {
+				"BADGER_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "3.1945",
+						"bid": "3.4673",
+						"ask": "3.4768",
+						"low": "3.1514",
+						"high": "3.8978",
+						"last": "3.4673",
+						"volume": "132494.7643",
+						"deal": "463601.86773437",
+						"change": "8.54"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "6.5", "max": "0" }
+			}
+		},
+		"BAL": {
+			"id": 0,
+			"shortName": "BAL",
+			"info": {
+				"name": "Balancer",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "3",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "2",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Balancer",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"4.8872",
+						"4.8938",
+						"4.8971",
+						"4.8807",
+						"101.23",
+						"495.109335"
+					],
+					[
+						1657175400,
+						"4.8905",
+						"4.8807",
+						"4.8971",
+						"4.8708",
+						"272.12",
+						"1328.105113"
+					],
+					[
+						1657176300,
+						"4.8807",
+						"4.8807",
+						"4.8839",
+						"4.861",
+						"301.39",
+						"1469.775979"
+					],
+					[
+						1657177200,
+						"4.8807",
+						"4.8839",
+						"4.9004",
+						"4.8807",
+						"38.6",
+						"188.607676"
+					],
+					[
+						1657178100,
+						"4.8905",
+						"4.9004",
+						"4.9004",
+						"4.8708",
+						"137.03",
+						"669.11944"
+					]
+				]
+			},
+			"traidingWith": {
+				"BAL_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "4.8905",
+						"bid": "5.1197",
+						"ask": "5.1266",
+						"low": "4.861",
+						"high": "5.3129",
+						"last": "5.1231",
+						"volume": "27925.09",
+						"deal": "141945.132638",
+						"change": "4.76"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "3", "max": "0" }
+			}
+		},
+		"BAND": {
+			"id": 4679,
+			"shortName": "BAND",
+			"info": {
+				"name": "Band Protocol",
+				"unified_cryptoasset_id": 4679,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "15",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "10",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Band Protocol",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"1.3789",
+						"1.3813",
+						"1.3836",
+						"1.3789",
+						"1490.66",
+						"2059.351349"
+					],
+					[
+						1657175400,
+						"1.3824",
+						"1.3789",
+						"1.3824",
+						"1.3789",
+						"234.57",
+						"323.73633"
+					],
+					[
+						1657176300,
+						"1.3789",
+						"1.3743",
+						"1.3789",
+						"1.3743",
+						"289.8",
+						"399.24895"
+					],
+					[
+						1657177200,
+						"1.3766",
+						"1.3824",
+						"1.3824",
+						"1.3766",
+						"1499.37",
+						"2067.608431"
+					],
+					[
+						1657178100,
+						"1.3789",
+						"1.3977",
+						"1.4012",
+						"1.3766",
+						"4122.73",
+						"5739.017682"
+					]
+				]
+			},
+			"traidingWith": {
+				"BAND_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "1.3824",
+						"bid": "1.3994",
+						"ask": "1.4006",
+						"low": "1.3743",
+						"high": "1.4548",
+						"last": "1.4054",
+						"volume": "160770.44",
+						"deal": "226778.046868",
+						"change": "1.66"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "15", "max": "0" }
+			}
+		},
+		"BAT": {
+			"id": 10028,
+			"shortName": "BAT",
+			"info": {
+				"name": "Basic Attention Token",
+				"unified_cryptoasset_id": 10028,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "35",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "25",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Basic Attention Token",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.445",
+						"0.4463",
+						"0.4466",
+						"0.4445",
+						"16014.45",
+						"7135.018304"
+					],
+					[
+						1657175400,
+						"0.4467",
+						"0.4449",
+						"0.4472",
+						"0.4445",
+						"21521.32",
+						"9591.903834"
+					],
+					[
+						1657176300,
+						"0.4447",
+						"0.4473",
+						"0.4484",
+						"0.4438",
+						"29405.26",
+						"13123.550193"
+					],
+					[
+						1657177200,
+						"0.4477",
+						"0.4485",
+						"0.4499",
+						"0.4473",
+						"41195.63",
+						"18489.468832"
+					],
+					[
+						1657178100,
+						"0.448",
+						"0.4486",
+						"0.4499",
+						"0.4466",
+						"25600.82",
+						"11477.693434"
+					]
+				]
+			},
+			"traidingWith": {
+				"BAT_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.4467",
+						"bid": "0.4379",
+						"ask": "0.4381",
+						"low": "0.4379",
+						"high": "0.4598",
+						"last": "0.4379",
+						"volume": "3757579.62",
+						"deal": "1693492.971018",
+						"change": "-1.97"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "35", "max": "0" }
+			}
+		},
+		"BCH": {
+			"id": 1831,
+			"shortName": "BCH",
+			"info": {
+				"name": "Bitcoin Cash Node",
+				"unified_cryptoasset_id": 1831,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "0.035",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "0.015",
+				"max_deposit": "0",
+				"currency_precision": 8,
+				"is_memo": false
+			},
+			"name": "Bitcoin Cash Node",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"105.44",
+						"105.46",
+						"105.6",
+						"105.4",
+						"106.29126",
+						"11213.0089432"
+					],
+					[
+						1657175400,
+						"105.51",
+						"105.31",
+						"105.55",
+						"105.19",
+						"117.98927",
+						"12426.9898812"
+					],
+					[
+						1657176300,
+						"105.25",
+						"105.28",
+						"105.31",
+						"105",
+						"151.15814",
+						"15896.6136051"
+					],
+					[
+						1657177200,
+						"105.29",
+						"105.28",
+						"105.53",
+						"105.2",
+						"156.78765",
+						"16528.104435"
+					],
+					[
+						1657178100,
+						"105.3",
+						"105.2",
+						"105.3",
+						"105",
+						"127.65781",
+						"13423.7487084"
+					]
+				]
+			},
+			"traidingWith": {
+				"BCH_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.005187",
+						"bid": "0.005065",
+						"ask": "0.005066",
+						"low": "0.005041",
+						"high": "0.005283",
+						"last": "0.005066",
+						"volume": "2752.312",
+						"deal": "14.178505629",
+						"change": "-2.33"
+					}
+				},
+				"BCH_UAH": {
+					"name": "UAH",
+					"info": {
+						"name": "Hryvnia",
+						"unified_cryptoasset_id": 0,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "50",
+						"max_withdraw": "100000",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "50",
+						"max_deposit": "100000",
+						"providers": {
+							"deposits": ["VISAMASTER", "ADVCASH", "GEOPAY"],
+							"withdraws": ["VISAMASTER", "GEOPAY"]
+						},
+						"limits": {
+							"deposit": {
+								"ADVCASH": { "max": "50000", "min": "50" },
+								"GEOPAY": { "max": "100000", "min": "50" },
+								"VISAMASTER": { "max": "29500", "min": "50" }
+							},
+							"withdraw": {
+								"ADVCASH": { "max": "50000", "min": "50" },
+								"GEOPAY": { "max": "100000", "min": "50" },
+								"VISAMASTER": { "max": "100000", "min": "50" }
+							}
+						},
+						"currency_precision": 2,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "3660.91",
+						"bid": "3884.83",
+						"ask": "3885.94",
+						"low": "3652.59",
+						"high": "4015.2",
+						"last": "3887.04",
+						"volume": "44.0269",
+						"deal": "170153.8530952",
+						"change": "6.18"
+					}
+				},
+				"BCH_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "105.51",
+						"bid": "110.31",
+						"ask": "110.42",
+						"low": "105",
+						"high": "113.7",
+						"last": "110.43",
+						"volume": "30275.63255",
+						"deal": "3323697.0002144",
+						"change": "4.66"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "0.035", "max": "0" }
+			}
+		},
+		"BERRY": {
+			"id": 9055,
+			"shortName": "BERRY",
+			"info": {
+				"name": "Berry",
+				"unified_cryptoasset_id": 9055,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "12500",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "8500",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Berry",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.0012114",
+						"0.0012089",
+						"0.0012119",
+						"0.0012089",
+						"143179.4",
+						"173.25765992"
+					],
+					[
+						1657175400,
+						"0.0012113",
+						"0.0012119",
+						"0.0012119",
+						"0.0012089",
+						"130123.9",
+						"157.51875433"
+					],
+					[
+						1657176300,
+						"0.0012119",
+						"0.0012119",
+						"0.0012119",
+						"0.0012089",
+						"121858.7",
+						"147.55711271"
+					],
+					[
+						1657177200,
+						"0.0012119",
+						"0.0012119",
+						"0.0012119",
+						"0.0012089",
+						"167823.9",
+						"203.13337782"
+					],
+					[
+						1657178100,
+						"0.0012115",
+						"0.0012089",
+						"0.0012119",
+						"0.0012089",
+						"202185.5",
+						"244.83748777"
+					]
+				]
+			},
+			"traidingWith": {
+				"BERRY_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.0012113",
+						"bid": "0.0012804",
+						"ask": "0.001295",
+						"low": "0.0011321",
+						"high": "0.001414",
+						"last": "0.0012867",
+						"volume": "16943688.7",
+						"deal": "21765.62001275",
+						"change": "6.22"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "12500", "max": "0" }
+			}
+		},
+		"BICO": {
+			"id": 0,
+			"shortName": "BICO",
+			"info": {
+				"name": "Biconomy",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "30",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "20",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Biconomy",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.502",
+						"0.502",
+						"0.502",
+						"0.502",
+						"550.439",
+						"276.320378"
+					],
+					[
+						1657175400,
+						"0.502",
+						"0.502",
+						"0.502",
+						"0.502",
+						"5900.6057",
+						"2962.1040614"
+					],
+					[
+						1657176300,
+						"0.502",
+						"0.4991",
+						"0.502",
+						"0.4991",
+						"12290.1968",
+						"6135.84052988"
+					],
+					[
+						1657177200,
+						"0.501",
+						"0.501",
+						"0.501",
+						"0.501",
+						"5492.8754",
+						"2751.9305754"
+					],
+					[
+						1657178100,
+						"0.5",
+						"0.501",
+						"0.501",
+						"0.5",
+						"12678.771",
+						"6340.8888"
+					]
+				]
+			},
+			"traidingWith": {
+				"BICO_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.502",
+						"bid": "0.514",
+						"ask": "0.517",
+						"low": "0.497",
+						"high": "0.531",
+						"last": "0.516",
+						"volume": "2218023.5362",
+						"deal": "1138484.11019363",
+						"change": "2.79"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "30", "max": "0" }
+			}
+		},
+		"BITCCA": {
+			"id": 0,
+			"shortName": "BITCCA",
+			"info": {
+				"name": "bitcci cash",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "33000",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "22000",
+				"max_deposit": "0",
+				"currency_precision": 2,
+				"is_memo": false
+			},
+			"name": "bitcci cash",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.00045792",
+						"0.00045802",
+						"0.00045804",
+						"0.00045792",
+						"2415888",
+						"1106.43888341"
+					],
+					[
+						1657175400,
+						"0.000458",
+						"0.00045787",
+						"0.000458",
+						"0.00045787",
+						"4355555",
+						"1994.5516036"
+					],
+					[
+						1657176300,
+						"0.00045784",
+						"0.00045793",
+						"0.00045797",
+						"0.00045784",
+						"1463551",
+						"670.18843147"
+					],
+					[
+						1657177200,
+						"0.00045793",
+						"0.00045787",
+						"0.00045802",
+						"0.00045787",
+						"2319568",
+						"1062.23633569"
+					],
+					[
+						1657178100,
+						"0.00045784",
+						"0.00045789",
+						"0.00045802",
+						"0.00045784",
+						"4078846",
+						"1867.7993489"
+					]
+				]
+			},
+			"traidingWith": {
+				"BITCCA_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.000458",
+						"bid": "0.0004",
+						"ask": "0.00041",
+						"low": "0.0003968",
+						"high": "0.00047709",
+						"last": "0.00040309",
+						"volume": "255300386",
+						"deal": "106251.41515917",
+						"change": "-11.99"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "33000", "max": "0" }
+			}
+		},
+		"BLCT": {
+			"id": 5280,
+			"shortName": "BLCT",
+			"info": {
+				"name": "Bloomzed Loyalty Club Tiket",
+				"unified_cryptoasset_id": 5280,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "20",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "15",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Bloomzed Loyalty Club Tiket",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.7149",
+						"0.7106",
+						"0.7149",
+						"0.7106",
+						"49.034",
+						"34.9495167"
+					],
+					[
+						1657175400,
+						"0.7188",
+						"0.7093",
+						"0.7188",
+						"0.7093",
+						"87.318",
+						"62.4124315"
+					],
+					[
+						1657176300,
+						"0.7141",
+						"0.7142",
+						"0.7142",
+						"0.7141",
+						"69.76",
+						"49.8194211"
+					],
+					[
+						1657177200,
+						"0.7159",
+						"0.7094",
+						"0.7159",
+						"0.7094",
+						"67.104",
+						"47.7846286"
+					],
+					[
+						1657178100,
+						"0.7181",
+						"0.7074",
+						"0.7181",
+						"0.7074",
+						"69.659",
+						"49.5927155"
+					]
+				]
+			},
+			"traidingWith": {
+				"BLCT_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.7188",
+						"bid": "0.7",
+						"ask": "0.7316",
+						"low": "0.7004",
+						"high": "0.7304",
+						"last": "0.7145",
+						"volume": "6183.498",
+						"deal": "4429.679181",
+						"change": "-0.60"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "20", "max": "0" }
+			}
+		},
+		"BLVR": {
+			"id": 5855,
+			"shortName": "BLVR",
+			"info": {
+				"name": "BELIEVER",
+				"unified_cryptoasset_id": 5855,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "1",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "900",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "BELIEVER",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "1", "max": "0" }
+			}
+		},
+		"BLXM": {
+			"id": 0,
+			"shortName": "BLXM",
+			"info": {
+				"name": "BLXM",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": false,
+				"can_deposit": false,
+				"min_withdraw": "21.5",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "19.5",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "BLXM",
+			"active": false,
+			"deposit": false,
+			"withdraw": false,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "21.5", "max": "0" }
+			}
+		},
+		"BLZ": {
+			"id": 0,
+			"shortName": "BLZ",
+			"info": {
+				"name": "Bluzelle",
+				"unified_cryptoasset_id": 0,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "170",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "110",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Bluzelle",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.0903",
+						"0.0901",
+						"0.0903",
+						"0.0901",
+						"16168.74",
+						"1458.242877"
+					],
+					[
+						1657175400,
+						"0.0903",
+						"0.0901",
+						"0.0903",
+						"0.0901",
+						"15494.36",
+						"1397.722176"
+					],
+					[
+						1657176300,
+						"0.0903",
+						"0.0901",
+						"0.0903",
+						"0.0897",
+						"59022.35",
+						"5310.861808"
+					],
+					[
+						1657177200,
+						"0.0901",
+						"0.0905",
+						"0.0906",
+						"0.0901",
+						"28621.61",
+						"2585.799263"
+					],
+					[
+						1657178100,
+						"0.0904",
+						"0.091",
+						"0.0916",
+						"0.0903",
+						"53279.97",
+						"4838.032009"
+					]
+				]
+			},
+			"traidingWith": {
+				"BLZ_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.0903",
+						"bid": "0.0933",
+						"ask": "0.0935",
+						"low": "0.0897",
+						"high": "0.0976",
+						"last": "0.0934",
+						"volume": "7125345.16",
+						"deal": "666386.586483",
+						"change": "3.43"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "170", "max": "0" }
+			}
+		},
+		"BNB": {
+			"id": 1839,
+			"shortName": "BNB",
+			"info": {
+				"name": "Binance Coin",
+				"unified_cryptoasset_id": 1839,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "0.02",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "0.009",
+				"max_deposit": "0",
+				"networks": {
+					"deposits": ["BEP2", "BEP20"],
+					"withdraws": ["BEP2", "BEP20"],
+					"default": "BEP2"
+				},
+				"limits": {
+					"deposit": {
+						"BEP2": { "min": "0.009" },
+						"BEP20": { "min": "0.009" }
+					},
+					"withdraw": {
+						"BEP2": { "min": "0.02" },
+						"BEP20": { "min": "0.02" }
+					}
+				},
+				"currency_precision": 18,
+				"is_memo": true
+			},
+			"name": "Binance Coin",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"236.82",
+						"236.99",
+						"237",
+						"236.6",
+						"118.2008",
+						"27994.772028"
+					],
+					[
+						1657175400,
+						"236.9",
+						"236.92",
+						"237.29",
+						"236.6",
+						"147.0815",
+						"34851.862736"
+					],
+					[
+						1657176300,
+						"236.98",
+						"236.23",
+						"237",
+						"235.92",
+						"150.2759",
+						"35531.638532"
+					],
+					[
+						1657177200,
+						"236.3",
+						"236.22",
+						"236.8",
+						"236.11",
+						"145.4898",
+						"34398.54829"
+					],
+					[
+						1657178100,
+						"236.13",
+						"236.3",
+						"236.6",
+						"235.8",
+						"143.3218",
+						"33848.39407"
+					]
+				]
+			},
+			"traidingWith": {
+				"BNB_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.011649",
+						"bid": "0.011065",
+						"ask": "0.011066",
+						"low": "0.01095",
+						"high": "0.011663",
+						"last": "0.011065",
+						"volume": "9976.3",
+						"deal": "113.09252325",
+						"change": "-5.01"
+					}
+				},
+				"BNB_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "236.9",
+						"bid": "240.79",
+						"ask": "240.96",
+						"low": "235.3",
+						"high": "247.86",
+						"last": "240.82",
+						"volume": "14632.0777",
+						"deal": "3513470.192786",
+						"change": "1.65"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "0.02", "max": "0" }
+			}
+		},
+		"BNOX": {
+			"id": 5648,
+			"shortName": "BNOX",
+			"info": {
+				"name": "BlockNoteX",
+				"unified_cryptoasset_id": 5648,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "40",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "35",
+				"max_deposit": "0",
+				"currency_precision": 2,
+				"is_memo": false
+			},
+			"name": "BlockNoteX",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": false,
+				"message": { "market": ["Market is not available."] },
+				"result": null
+			},
+			"traidingWith": [],
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "40", "max": "0" }
+			}
+		},
+		"BNT": {
+			"id": 1727,
+			"shortName": "BNT",
+			"info": {
+				"name": "Bancor Network Token",
+				"unified_cryptoasset_id": 1727,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "40",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "30",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "Bancor Network Token",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657174500,
+						"0.4903",
+						"0.4898",
+						"0.4903",
+						"0.4891",
+						"633.4983",
+						"310.27354882"
+					],
+					[
+						1657175400,
+						"0.49",
+						"0.4904",
+						"0.4907",
+						"0.49",
+						"338.3534",
+						"165.94606281"
+					],
+					[
+						1657176300,
+						"0.4892",
+						"0.4899",
+						"0.492",
+						"0.4892",
+						"1728.4216",
+						"847.6510943"
+					],
+					[
+						1657177200,
+						"0.4899",
+						"0.4902",
+						"0.4919",
+						"0.4898",
+						"1579.9522",
+						"775.33442044"
+					],
+					[
+						1657178100,
+						"0.4914",
+						"0.498",
+						"0.498",
+						"0.4914",
+						"2053.481",
+						"1015.96712703"
+					]
+				]
+			},
+			"traidingWith": {
+				"BNT_BTC": {
+					"name": "BTC",
+					"info": {
+						"name": "Bitcoin",
+						"unified_cryptoasset_id": 1,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "0.001",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "0.0005",
+						"max_deposit": "0",
+						"currency_precision": 8,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.00002408",
+						"bid": "0.00002314",
+						"ask": "0.00002345",
+						"low": "0.00002299",
+						"high": "0.00002464",
+						"last": "0.00002323",
+						"volume": "20104",
+						"deal": "0.48054367",
+						"change": "-3.53"
+					}
+				},
+				"BNT_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.49",
+						"bid": "0.5038",
+						"ask": "0.506",
+						"low": "0.4892",
+						"high": "0.5246",
+						"last": "0.5039",
+						"volume": "286163.859",
+						"deal": "145080.34491342",
+						"change": "2.84"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "40", "max": "0" }
+			}
+		},
+		"ZRX": {
+			"id": 1896,
+			"shortName": "ZRX",
+			"info": {
+				"name": "0x",
+				"unified_cryptoasset_id": 1896,
+				"can_withdraw": true,
+				"can_deposit": true,
+				"min_withdraw": "55",
+				"max_withdraw": "0",
+				"maker_fee": "0.1",
+				"taker_fee": "0.1",
+				"min_deposit": "45",
+				"max_deposit": "0",
+				"currency_precision": 18,
+				"is_memo": false
+			},
+			"name": "0x",
+			"active": true,
+			"deposit": true,
+			"withdraw": true,
+			"selected": false,
+			"fee": null,
+			"precision": null,
+			"history": {
+				"success": true,
+				"message": null,
+				"result": [
+					[
+						1657175400,
+						"0.3037",
+						"0.3028",
+						"0.3044",
+						"0.3028",
+						"20816.88",
+						"6318.651483"
+					],
+					[
+						1657176300,
+						"0.303",
+						"0.3037",
+						"0.304",
+						"0.3025",
+						"16718.18",
+						"5067.651302"
+					],
+					[
+						1657177200,
+						"0.3035",
+						"0.3041",
+						"0.3045",
+						"0.3035",
+						"11839.89",
+						"3600.874728"
+					],
+					[
+						1657178100,
+						"0.3039",
+						"0.3043",
+						"0.3043",
+						"0.3035",
+						"13360.4",
+						"4059.398037"
+					],
+					[
+						1657179000,
+						"0.3042",
+						"0.306",
+						"0.3061",
+						"0.304",
+						"18097.34",
+						"5528.950536"
+					]
+				]
+			},
+			"traidingWith": {
+				"ZRX_USDT": {
+					"name": "USDT",
+					"info": {
+						"name": "Tether US",
+						"unified_cryptoasset_id": 825,
+						"can_withdraw": true,
+						"can_deposit": true,
+						"min_withdraw": "10",
+						"max_withdraw": "0",
+						"maker_fee": "0.1",
+						"taker_fee": "0.1",
+						"min_deposit": "5",
+						"max_deposit": "0",
+						"networks": {
+							"deposits": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"withdraws": [
+								"ERC20",
+								"TRC20",
+								"OMNI",
+								"BEP20",
+								"EOS"
+							],
+							"default": "ERC20"
+						},
+						"limits": {
+							"deposit": {
+								"BEP20": { "min": "5" },
+								"EOS": { "min": "10" },
+								"ERC20": { "min": "30" },
+								"OMNI": { "min": "60" },
+								"TRC20": { "min": "5" }
+							},
+							"withdraw": {
+								"BEP20": { "min": "10" },
+								"EOS": { "min": "15" },
+								"ERC20": { "min": "50" },
+								"OMNI": { "min": "30" },
+								"TRC20": { "min": "10" }
+							}
+						},
+						"currency_precision": 6,
+						"is_memo": false
+					},
+					"trading": {
+						"open": "0.3035",
+						"bid": "0.321",
+						"ask": "0.3212",
+						"low": "0.3025",
+						"high": "0.3364",
+						"last": "0.3211",
+						"volume": "4228332.34",
+						"deal": "1355780.727957",
+						"change": "5.80"
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null },
+				"withdraw": { "min": "55", "max": "0" }
+			}
+		}
+	},
+	"message": "all"
+}

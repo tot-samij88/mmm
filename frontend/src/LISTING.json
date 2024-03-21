@@ -1,0 +1,27 @@
+{
+	"success": true,
+	"data": {
+		"1INCH": {
+			"id": 8104, //IMPORTANT
+			"shortName": "1INCH", //IMPORTANT
+			// MAKE CURRENT PRICE
+			"name": "1inch", //IMPORTANT
+			"active": true, // SORDET backend
+			"withdraw": true, // SORDET backend
+			"selected": false, // Importand VLAD
+			"history": {
+				"success": true,
+				"message": null,
+				// result is IMPORTANT| make as object | history price
+				"result": [
+					[
+						1631440800, // Time in seconds
+						"2022-06-19T18:00:00.000Z", // data
+						"45750.23" // low
+					]
+				]
+			}
+		}
+	},
+	"message": "all"
+}

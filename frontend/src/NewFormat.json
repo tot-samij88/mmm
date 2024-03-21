@@ -1,0 +1,91 @@
+{
+	"success": true,
+	"data": {
+		"1INCH": {
+			"id": 8104, //IMPORTANT
+			"shortName": "1INCH", //IMPORTANT
+			// MAKE CURRENT PRICE
+			"info": {
+				"name": "1inch", //IMPORTANT
+				"unified_cryptoasset_id": 8104, //IMPORTANT
+				"can_withdraw": true, // SORDET backend
+				"min_withdraw": "25", //IMPORTANT
+				"max_withdraw": "0" //IMPORTANT | 0 - unlimited
+			},
+			"name": "1inch", //IMPORTANT
+			"active": true, // SORDET backend
+			"withdraw": true, // SORDET backend
+			"selected": false, // Importand VLAD
+			"history": {
+				"success": true,
+				"message": null,
+				// result is IMPORTANT| make as object | history price
+				"result": [
+					[
+						1631440800, // Time in seconds
+						"2022-06-19T18:00:00.000Z", // data
+						"45750.23" // low
+					],
+					[
+						1657175400,
+						"0.623664",
+						"0.62126",
+						"0.623836",
+						"0.621089",
+						"7820.98",
+						"4871.05394991"
+					],
+					[
+						1657176300,
+						"0.620918",
+						"0.620062",
+						"0.620918",
+						"0.619037",
+						"13911.04",
+						"8627.10755168"
+					],
+					[
+						1657177200,
+						"0.620404",
+						"0.621432",
+						"0.622976",
+						"0.619208",
+						"12355.95",
+						"7686.48921513"
+					],
+					[
+						1657178100,
+						"0.62126",
+						"0.620404",
+						"0.621775",
+						"0.619037",
+						"6202.91",
+						"3848.23986708"
+					]
+				]
+			},
+			// traidingWith LENGTH must be > 0 | sort on backend
+			"traidingWith": {
+				"1INCH_BTC": {
+					// Add field SELECTED for VLAD
+					"name": "BTC", //IMPORTANT
+					"info": {
+						"name": "Bitcoin", //IMPORTANT
+						"unified_cryptoasset_id": 1, //IMPORTANT
+						"can_withdraw": true, //SORDET backend
+						"min_withdraw": "0.001", //IMPORTANT
+						"max_withdraw": "0" //IMPORTANT
+					},
+					"trading": {
+						"last": "0.00003123" //IMPORTANT | last price |
+					}
+				}
+			},
+			"limits": {
+				"amount": { "min": null, "max": null }, //IMPORTANT
+				"withdraw": { "min": "25", "max": "0" } //IMPORTANT
+			}
+		}
+	},
+	"message": "all"
+}
